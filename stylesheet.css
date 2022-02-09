@@ -1,0 +1,150 @@
+body{
+     margin: auto;
+ }
+ /* Header Start */
+ header{
+     height:60px;
+     background-color:#e09c83
+ }
+ 
+ #icon{
+     float:left
+ }
+ 
+ #social{
+     float:right
+ }
+ 
+ .slogo{
+     height: 50px;
+     width: 50px;
+ }
+ 
+ /* Search Start */
+ #search{
+     height:400px;
+     background-image: url('/Images/food\ template.jpg');
+     background-repeat: no-repeat;
+     /* background-size: cover; */
+     background-size: 100% 400px;
+ }
+ 
+ #logo{
+     height:150px;
+     width:150px;
+     background-color: rgb(198, 235, 238);
+     border-radius: 50%;
+     margin-left:45%;
+     margin-top:1%;
+     position: absolute;
+     font-size:80px;
+     color:#e09c83
+ }
+ 
+ #logo > span{
+     margin-left: 30%;
+     margin-top:15%;
+     position: absolute;
+ }
+ 
+ #heading{
+     margin-left: 39%;
+     margin-top:14%;
+     position: absolute;
+     color:rgb(221, 240, 57);
+     font-size:45px;
+ }
+ 
+ .dropdown{
+     height:60px;
+     width:60%;
+     margin-left:27%;
+     margin-top:20%;
+     position: absolute;
+ }
+ 
+ select{
+     height:60px;
+     width:35%;
+     font-size:15px;
+     text-align:center;
+ }
+ 
+ .restlist{
+     width:50%  
+ }
+ a{
+     text-decoration:none
+ }
+ 
+ 
+ /* QuickSearch Start */
+ #QuickSearch{
+     height:600px;
+     width:80%;
+     margin-left: 10%;
+     margin-top:5%;
+ }
+ #QuickHeading{
+     color:orange;
+     font-size:30px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight:bold;
+     display:block;
+     margin-left: 2%;
+ }
+ 
+ #QuickSubHeading{
+     line-height: 2;
+     color:gray;
+     font-size:20px;
+     margin-left: 2%;
+ }
+ 
+ .tileContainer{
+     height:200px;
+     width:30%;
+     float: left;
+     margin-top: 2%;
+     margin-left: 2%;
+     box-shadow: 10px 20px 10px gray;
+ }
+ .tileComponent1{
+     width:58%;
+     float: left;
+     height:200px;
+ }
+ .tileComponent1 > img{
+     height:200px;
+     width:100%;
+ }
+ .tileComponent2{
+     width:32%;
+     float: left;
+     height:100px;
+     margin-left: 7%;
+     margin-top: 15%;
+ }
+ .componentHeading{
+     font-size: 25px;
+     color:orange;
+ }
+ 
+ .componentHeading > a{
+     color:orange;
+ }
+ .componentSubHeading{
+     color:gray;
+ }
+ /* footer Start */
+ footer{
+     height:200px;
+     background-color:#e09c83
+ }
+ 
+ .foot1{
+     width:35%;
+     height:120px;
+     float: left;
+     border-right:2px solid white
+ }
