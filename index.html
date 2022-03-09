@@ -20,6 +20,7 @@
                        <a href="https://youtube.com/channel/UC-y73x9_n2zVEGIuvYgzpdw" target="_blank">
                            <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="youtube" class="slogo"/>
                        </a>
+                       <img src="/Images/brightness-light-up-day-mode.webp" id="icon" class="slogo"/>
                    </div>
             </header>
             <div id="search">
@@ -160,5 +161,17 @@
                 
             </footer>
         </div>
+        <script>
+            var icon = document.getElementById("icon");
+
+            icon.onclick = function(){
+                document.body.classList.toggle("dark theme");
+                if(document.body.classList.contains("dark-theme")){
+                    icon.src = ""
+                }else{
+                    
+                }
+            }
+        </script>
     </body>
 </html>
